@@ -1,0 +1,113 @@
+@font-face {
+    font-family: Superboy;
+    src: url(./Fonts/SuperBoys-vmW67.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: #1c1c1c;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+span{
+    color: red;
+
+}
+
+h1{
+    text-align: center;
+    font-family: Superboy;
+    font-size: 3.5em;
+    margin-bottom: 10px;
+
+}
+
+.ex{
+    text-align: center;
+    font-size: 1.5em;
+    color: #f0a500;
+    margin-bottom: 30px;
+    font-weight: lighter;
+}
+
+.bar   {
+    
+    height: 40px;
+    
+    
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px 0;
+    
+    
+}
+
+ul{
+    margin-top: 50px;
+}
+
+.nav li{
+    
+    
+    list-style: none;
+    display: flex;
+    
+    
+    
+    
+    
+}
+
+.nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family:Superboy ;
+    color: #f0a500;
+    transition: color 0.3s ease;
+}
+
+img{
+    width: 500px;
+    border: none;
+    border-radius: 30px;
+    margin-right: 50px;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.para{
+    text-align: center;
+    font-size: 2em;
+    margin-left: 30px ;
+    margin-top: 60px;
+    color: #d1d1d1;
+}
+
+.nav li a:hover{
+    color: #f0f0f0;
+}
+
+
+
+
+@media (max-width: 768px) {
+    section {
+        flex-direction: column;
+    }
+    .para {
+        font-size: 1.5em;
+    }
+}
